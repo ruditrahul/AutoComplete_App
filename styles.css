@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: whitesmoke;
+  font-family: "Arvo", serif;
+  background-color: #121013;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 15rem;
+}
+
+.form-control {
+  width: 40vw;
+  margin-right: 0.5rem;
+}
+
+.card {
+  background-color: #ffe227;
+  width: 40vw;
+  height: 15vh;
+}
+
+.card > h5 {
+  color: #121013;
+}
